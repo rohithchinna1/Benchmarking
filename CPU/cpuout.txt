@@ -1,0 +1,106 @@
+
+F:\IIT\CS553\Assignment1\CPU>java cpu
+
+Enter # Threads: (1,2,4,8)
+1
+Thread #1 Start
+Thread #1 : Time for FLOPS      :743ms
+Thread #1 : Time for IOPS       :733ms
+Thread #1 : Number of GFLOPS    :2.8902876
+Thread #1 : Number of GIOPS     :2.9297185
+Thread #1 End
+
+Enter # Threads: (1,2,4,8)
+2
+Thread #1 Start
+Thread #2 Start
+Thread #2 : Time for FLOPS      :747ms
+Thread #2 : Time for IOPS       :732ms
+Thread #2 : Number of GFLOPS    :2.874811
+Thread #2 : Number of GIOPS     :2.9337208
+Thread #2 End
+Thread #1 : Time for FLOPS      :1210ms
+Thread #1 : Time for IOPS       :919ms
+Thread #1 : Number of GFLOPS    :1.7747798
+Thread #1 : Number of GIOPS     :2.3367612
+Thread #1 End
+
+Enter # Threads: (1,2,4,8)
+4
+Thread #1 Start
+Thread #2 Start
+Thread #3 Start
+Thread #4 Start
+Thread #1 : Time for FLOPS      :1459ms
+Thread #1 : Time for IOPS       :1831ms
+Thread #1 : Number of GFLOPS    :1.4718874
+Thread #1 : Number of GIOPS     :1.1728475
+Thread #1 End
+Thread #2 : Time for FLOPS      :1606ms
+Thread #2 : Time for IOPS       :1784ms
+Thread #2 : Number of GFLOPS    :1.337163
+Thread #2 : Number of GIOPS     :1.2037464
+Thread #2 End
+Thread #3 : Time for FLOPS      :1641ms
+Thread #3 : Time for IOPS       :1734ms
+Thread #3 : Number of GFLOPS    :1.3086433
+Thread #3 : Number of GIOPS     :1.2384566
+Thread #3 End
+Thread #4 : Time for FLOPS      :1769ms
+Thread #4 : Time for IOPS       :1701ms
+Thread #4 : Number of GFLOPS    :1.2139534
+Thread #4 : Number of GIOPS     :1.2624831
+Thread #4 End
+
+Enter # Threads: (1,2,4,8)
+8
+Thread #1 Start
+Thread #2 Start
+Thread #3 Start
+Thread #4 Start
+Thread #5 Start
+Thread #6 Start
+Thread #7 Start
+Thread #8 Start
+Thread #1 : Time for FLOPS      :1974ms
+Thread #1 : Time for IOPS       :3319ms
+Thread #1 : Number of GFLOPS    :1.0878843
+Thread #1 : Number of GIOPS     :0.6470273
+Thread #1 End
+Thread #2 : Time for FLOPS      :2362ms
+Thread #2 : Time for IOPS       :3280ms
+Thread #2 : Number of GFLOPS    :0.9091802
+Thread #2 : Number of GIOPS     :0.65472066
+Thread #2 End
+Thread #3 : Time for FLOPS      :2661ms
+Thread #3 : Time for IOPS       :3116ms
+Thread #3 : Number of GFLOPS    :0.8070213
+Thread #3 : Number of GIOPS     :0.68917966
+Thread #4 : Time for FLOPS      :2875ms
+Thread #3 End
+Thread #4 : Time for IOPS       :3026ms
+Thread #4 : Number of GFLOPS    :0.74695086
+Thread #4 : Number of GIOPS     :0.70967734
+Thread #4 End
+Thread #5 : Time for FLOPS      :2885ms
+Thread #5 : Time for IOPS       :3006ms
+Thread #5 : Number of GFLOPS    :0.7443617
+Thread #5 : Number of GIOPS     :0.7143991
+Thread #5 End
+Thread #7 : Time for FLOPS      :3122ms
+Thread #7 : Time for IOPS       :2608ms
+Thread #7 : Number of GFLOPS    :0.6878551
+Thread #7 : Number of GIOPS     :0.82342166
+Thread #7 End
+Thread #6 : Time for FLOPS      :3203ms
+Thread #6 : Time for IOPS       :2718ms
+Thread #6 : Number of GFLOPS    :0.6704601
+Thread #6 : Number of GIOPS     :0.790097
+Thread #6 End
+
+Enter # Threads: (1,2,4,8)
+Thread #8 : Time for FLOPS      :3193ms
+Thread #8 : Time for IOPS       :2481ms
+Thread #8 : Number of GFLOPS    :0.67255986
+Thread #8 : Number of GIOPS     :0.86557186
+Thread #8 End

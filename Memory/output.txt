@@ -1,0 +1,93 @@
+guest-5PVS4u@dj-linux:~$ cd Desktop
+guest-5PVS4u@dj-linux:~/Desktop$ g++ -pthread mem.cpp
+guest-5PVS4u@dj-linux:~/Desktop$ ./a.out
+
+
+//
+1.Sequential 1 thread
+2.Sequential 2 threads
+3.Random 1 thread
+4.Random 2 threads
+5.Close
+Enter your Choice: 1
+
+Time taken for 1Byte block : 4.59649
+Latency for 1Byte block : 8.56163e-07ms
+Throughput for 1Byte block : 87.0229 MB/sec
+
+Time taken for 1KB block : 7.10869
+Latency for 1KB block : 1.3241e-06ms
+Throughput for 1KB block : 2250.77 MB/sec
+
+Time taken for 1MB block : 3.00285
+Latency for 1MB block : 5.59323e-07ms
+Throughput for 1MB block : 5456.16 MB/sec
+
+
+1.Sequential 1 thread
+2.Sequential 2 threads
+3.Random 1 thread
+4.Random 2 threads
+5.Close
+Enter your Choice: 2
+
+The time for 1Byte block : 12.6606
+Latency for 1Byte block : 2.35823e-06ms
+Throughput for 1Byte block : 63.1879MB/sec
+
+The time for 1KB block : 18.5651
+Latency for 1KB block : 3.45802e-06ms
+Throughput for 1KB block :  1723.66MB/sec
+
+The time for 1MB block : 9.05433
+Latency for 1MB block : 1.6865e-06ms
+Throughput for 1MB block :  3619.04MB/sec
+
+
+1.Sequential 1 thread
+2.Sequential 2 threads
+3.Random 1 thread
+4.Random 2 threads
+5.Close
+Enter your Choice: 3
+
+The time for 1Byte block : 1.34495
+Latency for 1Byte block : 6.41323e-08ms
+Throughput for 1Byte block : 14.8704MB/sec
+
+The time for 1KB block : 2.50933
+Latency for 1KB block : 1.19654e-07ms
+Throughput for 1KB block : 2040.39MB/sec
+
+The time for 1MB block : 3.87066
+Latency for 1MB block : 1.84567e-07ms
+Throughput for 1MB block :  1322.77MB/sec
+
+
+1.Sequential 1 thread
+2.Sequential 2 threads
+3.Random 1 thread
+4.Random 2 threads
+5.Close
+Enter your Choice: 4
+
+The time for 1Byte block : 20.2139
+Latency for 1Byte block : 9.63873e-07ms
+Throughput for 1Byte block :  1.97884MB/sec
+
+The time for 1KB block : 8.88551
+Latency for 1KB block : 4.23694e-07ms
+Throughput for 1KB block :  1152.44MB/sec
+
+The time for 1MB block : 8.02483
+Latency for 1MB block : 3.82654e-07ms
+Throughput for 1MB block : 1276.04MB/sec
+
+
+1.Sequential 1 thread
+2.Sequential 2 threads
+3.Random 1 thread
+4.Random 2 threads
+5.Close
+Enter your Choice: 5
+

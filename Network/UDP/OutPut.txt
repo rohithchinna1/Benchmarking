@@ -1,0 +1,23 @@
+
+CLIENT:
+
+L:\1_Sem\CS553 Cloud\Assignment-1\Codes\Network\UDP>javac Client.java
+
+L:\1_Sem\CS553 Cloud\Assignment-1\Codes\Network\UDP>java Client
+Client I/O initiating...
+Size of the file : 10000 Bytes
+
+File sent from client
+Response from server:File has been recieved
+Time Take for 1 Thread upload   : 880197 nanosec
+Bandwidth for 1 Thread upload   : 11.0 Mbps
+
+
+SERVER:
+
+
+L:\1_Sem\CS553 Cloud\Assignment-1\Codes\Network\UDP>java Server
+Server Input/Output initialized
+
+Output file : Files/file.txt is successfully saved
+Recieved file in : 15186 nanosec
